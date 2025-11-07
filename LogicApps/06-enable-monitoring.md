@@ -1,4 +1,4 @@
-# Step 5: Application Insights による監視設定
+# Step 5: Application Insights による監視設定 (オプション)
 このステップでは、Logic App Standard のワークフローで Application Insights を有効化し、監視データを収集および分析する方法を説明します。
 
 1. ロジック アプリ の **「監視」** → **「Application Insights」** を確認
