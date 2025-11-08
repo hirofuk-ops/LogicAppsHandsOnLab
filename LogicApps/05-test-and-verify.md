@@ -3,7 +3,9 @@
 ## 1. Logic App の HTTP エンドポイントを取得
 1. Azure Portal で対象の ロジック アプリ を開く
 2. **「ワークフロー」** → **「HTTP トリガーをもつ対象のワークフロー」** を選択
-<img src="images/select-workflow-httpurl.png" alt="ワークフロー選択画面" style="display: block;border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+<table><tr><td>
+    <img src="images/select-workflow-httpurl.png" alt="ワークフロー選択画面" style="display: block;border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+</td></tr></table>
 3. トリガーの詳細画面で **「HTTP POST URL」** をコピー
    - この URL が PowerShell コマンドで使用するエンドポイント
 

@@ -9,12 +9,13 @@
    - リージョン: 東日本 (Japan East)
    - パフォーマンス: Standard
    - 冗長性: LRS (ローカル冗長ストレージ)
+   <table><tr><td>
    <img src="images/create-storage-account.png" alt="Storage Account作成画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+   </td></tr></table>
 4. **「レビューと作成」** をクリックし、設定を確認後 **「作成」** を選択
 5. 作成 → デプロイ完了を待機
 6. ストレージ アカウントが作成されたら、**「コンテナー」** へ移動し、`logicapp-container` という名前で新しいコンテナーを作成（パブリック アクセス レベルは「プライベート (匿名アクセスなし)」のままにする）
-7. key1 または key2 の接続文字列をコピーしてメモしておく（Logic
- App から接続する際に使用
+7. key1 または key2 の接続文字列をコピーしてメモしておく（ロジック アプリから接続する際に使用）
 
 ## 2. Logic App Standard の作成
 1. **「ロジック アプリ」** → **「作成」** → **「Logic App 」** → **「Standard (ワークフロー サービス プラン)」** を選択。
@@ -24,5 +25,7 @@
    - リージョン: 東日本 (Japan East)
    - 価格プラン: **ワークフロー Standard WS1**
 3. **「確認及び作成」** をクリックし、設定を確認後 **「作成」** を選択。
-<img src="images/create-logic-app-standard.png" alt="Logic App Standard作成画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+   <table><tr><td>
+      <img src="images/create-logic-app-standard.png" alt="Logic App Standard作成画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+   </td></tr></table>
 4. 作成 → デプロイ完了を待機。

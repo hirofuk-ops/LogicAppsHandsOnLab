@@ -17,7 +17,9 @@ Logic App から Storage Account に接続するための認証情報を設定�
    - **Authentication Type**: `Storage account connection string`
    - **アクセスキー**: コピーした接続文字列を貼り付け
 5. **「Create new」** クリックして保存し、接続を確立
-<img src="images/create-storage-connection.png" alt="Storage Account 接続作成画面" style="display:block;border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+<table><tr><td>
+   <img src="images/create-storage-connection.png" alt="Storage Account 接続作成画面" style="display:block;border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+</td></tr></table>
 
 ### ✅ 方法 B: マネージド ID を使用
 - 認証方法: **マネージド ID**
@@ -30,7 +32,9 @@ Logic App から Storage Account に接続するための認証情報を設定�
 - Container name: `logicapp-container` (事前に作成)
 - Blob name: `@{triggerBody()?['filename']}`
 - Blob content: `@{triggerBody()?['content']}`
-<img src="images/configure-blob-action.png" alt="Blob アクション設定画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+<table><tr><td>
+   <img src="images/configure-blob-action.png" alt="Blob アクション設定画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+</td></tr></table>
 
 ---
 
@@ -39,7 +43,10 @@ Logic App から Storage Account に接続するための認証情報を設定�
 2. 以下を設定:
    - Status Code: `200`
    - Body: `ファイル @{triggerBody()?['filename']} が正常にアップロードされました`
-<img src="images/configure-response-action.png" alt="Response アクション設定画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+<table><tr><td>
+   <img src="images/configure-response-action.png" alt="Response アクション設定画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 400px;">
+</td></tr></table>
+
 ---
 
 ## 5. ワークフローの保存
