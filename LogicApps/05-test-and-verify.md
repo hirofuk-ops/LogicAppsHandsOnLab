@@ -1,4 +1,5 @@
 # Step 4: 動作確認
+このステップでは、Logic App ワークフローが正しく動作することを確認します。PowerShell を使用して HTTP POST リクエストを送信し、Blob ストレージにファイルが作成されることを検証します。
 
 ## 1. Logic App の HTTP エンドポイントを取得
 1. Azure Portal で対象の ロジック アプリ を開く

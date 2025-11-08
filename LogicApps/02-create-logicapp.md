@@ -1,4 +1,7 @@
 # Step 1: Logic App Standard と Storage Account の作成
+このステップでは、Logic App Standard と Blob ストレージ用の Storage Account を作成します。
+
+---
 
 ## 1. Storage Account の作成
 1. Azure Portal にログイン
@@ -16,6 +19,8 @@
 5. 作成 → デプロイ完了を待機
 6. ストレージ アカウントが作成されたら、**「コンテナー」** へ移動し、`logicapp-container` という名前で新しいコンテナーを作成（パブリック アクセス レベルは「プライベート (匿名アクセスなし)」のままにする）
 7. key1 または key2 の接続文字列をコピーしてメモしておく（ロジック アプリから接続する際に使用）
+
+---
 
 ## 2. Logic App Standard の作成
 1. **「ロジック アプリ」** → **「作成」** → **「Logic App 」** → **「Standard (ワークフロー サービス プラン)」** を選択。

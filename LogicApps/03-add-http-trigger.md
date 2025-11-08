@@ -3,7 +3,7 @@
 
 1. Azure Portal でロジック アプリ (Standard) へ移動し、ワークフローから「追加」をクリックして、デザイナーを開く
 <table><tr><td>
-  <img src="images/Add-workflow.png" alt="ワークフロー追加画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 300px;">
+  <img src="images/add-workflow.png" alt="ワークフロー追加画面" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 300px;">
 </td></tr></table>
 
 2. Workflow 名を `HttpToBlobWorkflow` として、Stateful をチェックして、「作成」をクリック

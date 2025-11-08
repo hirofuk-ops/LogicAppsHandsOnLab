@@ -1,4 +1,7 @@
 # Step 3: Blob ストレージにファイルを書き込むアクション追加
+このステップでは、Logic App ワークフローに Azure Blob Storage へのファイルアップロードアクションを追加します。
+
+---
 
 ## 1. アクションの追加
 1. ロジック アプリ デザイナーで **「新しいステップ」** → **「Azure Blob Storage」** → **「Upload blob to storage container」** を選択
