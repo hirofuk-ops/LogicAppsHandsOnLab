@@ -12,12 +12,12 @@ Logic App から Storage Account に接続するための認証情報を設定�
 1. Azure Portal で対象の **Storage Account** を開く。
 2. **「アクセスキー」** を選択。
 3. **キー1 またはキー2** をコピー。
-4. Logic App の接続作成画面で以下を入力:
+4. ロジック アプリの接続作成画面で以下を入力:
    - **Connection Name**: 任意（例: `blob-key-connection`）
    - **Authentication Type**: `Storage account connection string`
    - **アクセスキー**: コピーした接続文字列を貼り付け
-5. **「Create new」**をクリックして保存し、接続を確立
-![Storage Account 接続作成画面](images/create-storage-connection.png)
+5. **「Create new」** クリックして保存し、接続を確立
+<img src="images/create-storage-connection.png" alt="Storage Account 接続作成画面" style="display:block;border: 3px solid black; border-radius: 10px; width: 400px;">
 
 ### ✅ 方法 B: マネージド ID を使用
 - 認証方法: **マネージド ID**
@@ -30,14 +30,17 @@ Logic App から Storage Account に接続するための認証情報を設定�
 - Container name: `logicapp-container` (事前に作成)
 - Blob name: `@{triggerBody()?['filename']}`
 - Blob content: `@{triggerBody()?['content']}`
-![Blob アクション設定画面](images/configure-blob-action.png)
+<img src="images/configure-blob-action.png" alt="Blob アクション設定画面" style="display:block; border: 3px solid black; border-radius: 10px; width: 400px;">
+
+---
 
 ## 4. Response アクションの追加
 1. **「新しいステップ」** → **「Response」** アクションを追加
 2. 以下を設定:
    - Status Code: `200`
    - Body: `ファイル @{triggerBody()?['filename']} が正常にアップロードされました`
-![Response アクション設定画面](images/configure-response-action.png)
+<img src="images/configure-response-action.png" alt="Response アクション設定画面" style="display:block; border: 3px solid black; border-radius: 10px; width: 400px;">
+---
 
 ## 5. ワークフローの保存
 1. 画面上部の **「保存」** ボタンをクリックして、ワークフローを保存

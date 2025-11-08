@@ -9,7 +9,7 @@
    - リージョン: 東日本 (Japan East)
    - パフォーマンス: Standard
    - 冗長性: LRS (ローカル冗長ストレージ)
-         ![Storage Account作成画面](images/create-storage-account.png)
+   <img src="images/create-storage-account.png" alt="Storage Account作成画面" style="display:block; border: 3px solid black; border-radius: 10px; width: 400px;">
 4. **「レビューと作成」** をクリックし、設定を確認後 **「作成」** を選択
 5. 作成 → デプロイ完了を待機
 6. ストレージ アカウントが作成されたら、**「コンテナー」** へ移動し、`logicapp-container` という名前で新しいコンテナーを作成（パブリック アクセス レベルは「プライベート (匿名アクセスなし)」のままにする）
@@ -24,5 +24,5 @@
    - リージョン: 東日本 (Japan East)
    - 価格プラン: **ワークフロー Standard WS1**
 3. **「確認及び作成」** をクリックし、設定を確認後 **「作成」** を選択。
-      ![Logic App Standard作成画面](images/create-logic-app-standard.png)
+<img src="images/create-logic-app-standard.png" alt="Logic App Standard作成画面" style="display:block; border: 3px solid black; border-radius: 10px; width: 400px;">
 4. 作成 → デプロイ完了を待機。
