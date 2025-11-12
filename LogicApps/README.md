@@ -2,6 +2,11 @@
 
 このハンズオンでは、Azure Logic Apps Standard の ワークフローを使用して、HTTP リクエストをトリガーに Blob ストレージにファイルにデータを書き込み、Application Insights で監視する方法を学びます。
 
+構成図:
+   <table><tr><td>
+      <img src="images/logicapps.png" alt="構成図" style="display:block; border: 3px solid #ccc; border-radius: 10px; width: 500px;">
+   </td></tr></table>
+
 ## 手順
 - [前提条件](01-prerequisites.md)
 - [Step 1: Logic App Standard と Storage Account の作成](02-create-logicapp.md)
